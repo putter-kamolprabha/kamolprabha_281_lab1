@@ -5,11 +5,25 @@
 ### Truth Table
 
 Insert your truth table here
+| A | B | C | D | Y |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 1 | 1 | //Jan
+| 0 | 0 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 |
+| 1 | 0 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 0 | 1 | //Dec
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A'D + AC'D' + AB'D' //from the K-map
 $$
 
 ### Digital Simulations
