@@ -7,7 +7,8 @@
 Insert your truth table here
 | A | B | C | D | Y |
 |---|---|---|---|---|
-| 0 | 0 | 0 | 1 | 1 | //Jan
+| 0 | 0 | 0 | 0 | X | //0
+| 0 | 0 | 0 | 1 | 1 | //Jan 1
 | 0 | 0 | 1 | 0 | 0 |
 | 0 | 0 | 1 | 1 | 1 |
 | 0 | 1 | 0 | 0 | 0 |
@@ -18,12 +19,16 @@ Insert your truth table here
 | 1 | 0 | 0 | 1 | 0 |
 | 1 | 0 | 1 | 0 | 1 |
 | 1 | 0 | 1 | 1 | 0 |
-| 1 | 1 | 0 | 0 | 1 | //Dec
+| 1 | 1 | 0 | 0 | 1 | //Dec 12
+| 1 | 1 | 0 | 1 | X | //13
+| 1 | 1 | 1 | 0 | X | //14
+| 1 | 1 | 1 | 1 | X | //15
+
 
 ### Boolean Equation
 
 $$
-Y = A'D + AC'D' + AB'D' //from the K-map
+Y = A'D + AD' //from the K-map
 $$
 
 ### Digital Simulations
